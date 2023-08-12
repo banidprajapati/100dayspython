@@ -27,7 +27,6 @@ scissors = '''
 ---.__(___)
 '''
 
-
 print("Welcome to Rock, Paper, Scissors, Shoot!")
 choice = int(input("1 - Rock\n2 - Paper\n3- Scissor\nType 1, 2 or 3: "))
 if choice == 1:
@@ -48,7 +47,6 @@ elif computer_choice == 2:
     print(f"Computer picked Paper\n{paper}")
 else:
     print(f"Computer picked Scissors\n{scissors}")
-
 
 if choice == 2 and computer_choice == 1:
     print("You Win!")
