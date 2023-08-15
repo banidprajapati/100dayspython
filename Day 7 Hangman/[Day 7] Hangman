@@ -1,0 +1,43 @@
+import random
+import wordlist
+import stages
+
+# Choose a word from the word_list and initialize variables
+chosen_word = random.choice(wordlist.word_list)
+answer = list(chosen_word)  # Convert the chosen_word to a list of characters
+display = ["_" for _ in answer]  # Initialize the display list with underscores
+
+print(stages.logo)
+print("A word has been chosen by the computer. Can you guess the word and save the hanging man?\n")
+
+increment = 7
+
+while increment != 0:
+    # Input validation for a single letter guess
+    guess = input("\nEnter a letter you want to check: ").lower()
+    while len(guess) != 1:
+        print("\nPlease enter only one character")
+        guess = input("\nEnter a letter you want to check: ").lower()
+
+    if guess in answer:
+        print(f"\nThe letter {guess} was in the word.")
+        # Update the display with correctly guessed letters
+        for i in range(len(chosen_word)):
+            if guess == answer[i]:
+                display[i] = guess
+    else:
+        print(f"\nThe letter {guess} was not in the word.")
+        print("\n", stages.stages[increment - 1])
+        increment -= 1
+
+    # Check if the game is won
+    if display == answer:
+        print("\nYou won. You saved the hanging man")
+        exit()
+
+    # Print the current state of the display
+    print(" ".join(display))  # Display with spaces between letters
+
+# End of the game
+print("\nGame Over. The man was hanged to death.")
+print(f"\nThe word was: {chosen_word}")
