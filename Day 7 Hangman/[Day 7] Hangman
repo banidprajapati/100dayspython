@@ -27,7 +27,7 @@ while increment != 0:
                 display[i] = guess
     else:
         print(f"\nThe letter {guess} was not in the word.")
-        print("\n", stages.stages[increment - 1])
+        print(stages.stages[increment - 1])
         increment -= 1
 
     # Check if the game is won
