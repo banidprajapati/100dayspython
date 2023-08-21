@@ -1,0 +1,1 @@
+Day 13, I debugged some of the bugs I had in the programs I had created from Day 1 to Day 12.
