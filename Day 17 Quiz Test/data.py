@@ -2,7 +2,7 @@ question_data = [
     {"category": "Science: Computers", "type": "boolean", "difficulty": "easy",
         "question": "Linus Torvalds created Linux and Git.", "correct_answer": "True", "incorrect_answers": ["False"]},
     {"category": "Science: Computers", "type": "boolean", "difficulty": "easy",
-        "question": "The programming language &quot;Python&quot; is based off a modified version of &quot;JavaScript&quot;.", "correct_answer": "False", "incorrect_answers": ["True"]},
+        "question": "The programming language 'Python' is based off a modified version of 'JavaScript'.", "correct_answer": "False", "incorrect_answers": ["True"]},
     {"category": "Science: Computers", "type": "boolean", "difficulty": "easy",
         "question": "The logo for Snapchat is a Bell.", "correct_answer": "False", "incorrect_answers": ["True"]},
     {"category": "Science: Computers", "type": "boolean", "difficulty": "easy",
