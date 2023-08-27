@@ -25,5 +25,4 @@ for _ in range(200):
     turtle.setheading(random.choice(angle))
     turtle.forward(30)
 
-screen = Screen()
-screen.exitonclick()
+
