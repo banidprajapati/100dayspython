@@ -11,23 +11,6 @@ screen.tracer(0)
 
 snake = Snake()
 
-
-def move_forward():
-    snake.forward(90)
-
-
-def move_backward():
-    snake.back(90)
-
-
-def rotate_left():
-    snake.left(90)
-
-
-def rotate_right():
-    snake.right(90)
-
-
 game_is_running = True
 while game_is_running:
     screen.update()
