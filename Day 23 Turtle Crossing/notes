@@ -1,0 +1,8 @@
+Player moves to 280 🟩
+Player moving function using Up key 🟩
+Player goes to -280 ycor after reaching 280. Level completed 🟩
+After each level, the speed of car increases
+Spawning of cars at random position
+Collision detection between player and enemy cars
+Game over when collision occurs with any car or if player reaches end screen
+Scoreboard should show what level we are on and game over after the crash

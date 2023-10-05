@@ -2,12 +2,12 @@
 - screen 🟩
 - net 🟩
 - paddle and make it move with arrows 🟩
-- cpu paddle, make it move up and down continuously
-- ball and moving it
-- ball detects collision with the paddles 
-- ball detects collision with walls
+- cpu paddle, make it move up and down continuously 🟩
+- ball and moving it 🟩
+- ball detects collision with the paddles 🟩
+- ball detects collision with walls 🟩
 - scoreboard 🟩
-- detect loses and update scoreboard accordingly
+- detect loses and update scoreboard accordingly 🟩
 """
 
 
