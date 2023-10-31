@@ -1,0 +1,6 @@
+use turtle and pandas
+
+create a screen and add background
+find the gif size and adjust the size of the screen accordingly
+create a new library named labeling where labeling of the states are done taking the name from csv and location from csv
+add a text to the img from line 5
